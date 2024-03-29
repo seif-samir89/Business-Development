@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="framework.css" /> 
+    <link rel="stylesheet" href="style.css" /> 
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+   <!-- Start Sidebar   -->
+   <div class="page d-flex">
+    <div class="sidebar bg-white p-20 p-relative">
+      <h3 class="p-relative txt-c mt-0">Business Analysis</h3>
+      <ul>
+        <li>
+          <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+            <i class="bi bi-bar-chart-line-fill"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+            <i class="bi bi-gear"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+            <i class="bi bi-person-check-fill"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+            <i class="bi bi-diagram-3-fill"></i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+            <i class="bi bi-mortarboard-fill"></i>
+            <span>Courses</span>
+          </a>
+        </li>
+        <li>
+          <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+            <i class="bi bi-people-fill"></i>
+            <span>Friends</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+            <i class="bi bi-file-earmark-font-fill"></i>
+            <span>Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+            <i class="bi bi-credit-card-2-back"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+       <!-- End Sidebar   -->
+    <div class="content w-full">
+      <!-- Start Head  -->
+      <div class="head bg-white p-15 d-flex align-center space-between">
+        <div class="search p-relative">
+          <input class="p-10" type="search" placeholder="Type A Keyword">
+        </div>
+        <div class="icons d-flex align-center">
+      <span class="notification p-relative">
+        <i class="bi bi-bell"></i>
+      </span>
+      <img src="img/avatar.png" alt="" loading="lazy">
+        </div>
+      </div>
+      <!-- End Head  -->
+      <h1 class="p-relative">Friends</h1>
+      <div class="friends-page d-grid m-20 gap-20">
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-1.jpg" alt=""  loading="lazy" />
+            <h4 class="m-0">Danila Kozlovsky </h4>
+            <p class="c-grey fs-13 mt-5 mb-0">JavaScript Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>99 Friend</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>15 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>25 Articles</span>
+            </div>
+            <span class="vip fw-bold c-orange">VIP</span>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 02/02/2024</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="#">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-2.jpg" alt="" loading="lazy" />
+            <h4 class="m-0">Aleksey Serebryakov</h4>
+            <p class="c-grey fs-13 mt-5 mb-0">Cloud Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>30 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>11 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>12 Articles</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 02/08/2023</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-3.jpg" alt="" loading="lazy"/>
+            <h4 class="m-0">Oleg Menshikov </h4>
+            <p class="c-grey fs-13 mt-5 mb-0">Mobile Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>80 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>20 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>18 Articles</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 02/06/2022</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-4.jpg" alt="" loading="lazy"/>
+            <h4 class="m-0">slime Shady </h4>
+            <p class="c-grey fs-13 mt-5 mb-0">Back-End Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>70 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>30 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>18 Articles</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 28/06/2024</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-5.jpg" alt="" loading="lazy"/>
+            <h4 class="m-0">Aleksey Chadov  </h4>
+            <p class="c-grey fs-13 mt-5 mb-0">Algorithm Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>80 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>30 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>18 Articles</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 28/08/2023</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-4.jpg" alt="" loading="lazy" />
+            <h4 class="m-0">Dmitriy Nagiev  </h4>
+            <p class="c-grey fs-13 mt-5 mb-0">Back-End Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>70 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>30 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>18 Articles</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 28/06/2023</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-2.jpg" alt=""  loading="lazy"/>
+            <h4 class="m-0">Alexander Petrov </h4>
+            <p class="c-grey fs-13 mt-5 mb-0">Cloud Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>30 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>11 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>12 Articles</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 02/08/2024</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-5.jpg" alt="" loading="lazy" />
+            <h4 class="m-0">Alexey Makarov  </h4>
+            <p class="c-grey fs-13 mt-5 mb-0">Content Creator</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>80 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+                <span>30 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>18 Articles</span>
+            </div>
+            <span class="vip fw-bold c-orange">Vip</span>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 28/08/2022</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-1.jpg" alt="" loading="lazy" />
+            <h4 class="m-0">Evgeny Stychkin  </h4>
+            <p class="c-grey fs-13 mt-5 mb-0">JavaScript Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>90 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>15 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>25 Articles</span>
+            </div>
+            <span class="vip fw-bold c-orange">Vip</span>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 02/10/2023</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+        </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-3.jpg" alt="" loading="lazy"/>
+            <h4 class="m-0">Capo plaza</h4>
+            <p class="c-grey fs-13 mt-5 mb-0">Front-End Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>80 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>20 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>18 Articles</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 02/06/2024</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+      </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-5.jpg" alt="" loading="lazy"/>
+            <h4 class="m-0">Pablo</h4>
+            <p class="c-grey fs-13 mt-5 mb-0">Front-End Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>80 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>20 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>18 Articles</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 02/08/2023</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+      </div>
+        <div class="friend bg-white rad-6 p-20 p-relative">
+          <div class="contact">
+            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="txt-c">
+            <img class="rad-half mt-10 mb-10 w-100 h-100" src="img/friend-2.jpg" alt="" loading="lazy" />
+            <h4 class="m-0">Demetry</h4>
+            <p class="c-grey fs-13 mt-5 mb-0">Front-End Developer</p>
+          </div>
+          <div class="icons fs-14 p-relative">
+            <div class="mb-10">
+              <i class="bi bi-emoji-smile"></i>
+              <span>80 Friends</span>
+            </div>
+            <div class="mb-10">
+              <i class="bi bi-code-slash"></i>
+              <span>20 Projects</span>
+            </div>
+            <div>
+              <i class="bi bi-newspaper"></i>
+              <span>18 Articles</span>
+            </div>
+          </div>
+          <div class="info between-flex fs-13">
+            <span class="c-grey">Joined 30/09/2024</span>
+            <div>
+              <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+              <a class="bg-red c-white btn-shape" href="">Remove</a>
+            </div>
+          </div>
+      </div>
+      </div>
+</body>
+</html>
